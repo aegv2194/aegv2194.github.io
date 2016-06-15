@@ -1,3 +1,62 @@
-main li {
-  display: inline;
+body {
+  background-color: #B6B6B6;
+}
+
+header h1 {
+  float: left;
+
+  }
+
+header ul {
+  float: right;
+}
+
+ header li {
+ display: inline-block;
+ border: 1px solid black;
+ border-radius: 10px;
+ text-align: center;
+ padding: 0 2em;
+ margin-left: .25em;
+
+}
+
+
+}
+h1, h2 {
+  font-family: 'Raleway', sans-serif;
+}
+main {
+  border: 1px solid black;
+  clear: both;
+}
+div.profile {
+  float:left;
+}
+.profile img {
+  width: 50%;
+}
+main ul {
+  width: 30%;
+  float: left;
+}
+li {
+  display: inline-block;
+}
+main ul img {
+  width: 45%;
+}
+main div {
+  width: 20%;
+  height: 50%;
+  border: 1px solid blue;
+  margin-left: 40%;
+  
+
+
+}
+main div img {
+  width 50%;
+
+
 }

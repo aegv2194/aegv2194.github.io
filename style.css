@@ -1,5 +1,6 @@
 body {
   background-color: #B6B6B6;
+  
 }
 
 header h1 {
@@ -37,26 +38,54 @@ div.profile {
   width: 50%;
 }
 main ul {
-  width: 30%;
+  width: 25%;
   float: left;
 }
 li {
   display: inline-block;
 }
 main ul img {
-  width: 45%;
+  width: 95%;
 }
 main div {
-  width: 20%;
-  height: 50%;
-  border: 1px solid blue;
-  margin-left: 40%;
-  
 
 
-}
+  }
 main div img {
   width 50%;
 
+}
+figure img {
+  width: 10em;
+  height: 10em;
+}
+figure {
+  border: 1px solid black;
+  padding: 1em;
+}
+figcaption {
+  text-align: left;
+  font-style: italic;
+}
+a img.large_image {
+  display: none;
 
+}
+img.large_image {
+  width: 35%;
+ margin-top: 3%;
+ margin-right: 25%;
+}
+a:hover img.large_image{
+  display: block;
+  position: absolute;
+   right: 2em;
+   top: 5em;
+   border: 1px dashed black;
+   padding: .5em;
+   cursor: crosshair;
+}
+footer {
+  margin-top: 125%;
+  text-align: center;
 }
